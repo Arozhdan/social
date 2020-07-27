@@ -1,0 +1,13 @@
+.header {
+  grid-area: header;
+  padding: 5px 10px;
+  background-color: #2d54a1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.img-wrapper{
+  height: 100%;
+  img{
+    height: 100%;
+  }
+}

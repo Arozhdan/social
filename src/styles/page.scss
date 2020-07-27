@@ -1,0 +1,15 @@
+.main {
+  grid-area: main;
+}
+
+
+.account-page-bg-wrapper{
+  max-height: 300px;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}

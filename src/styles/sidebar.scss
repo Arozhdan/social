@@ -1,0 +1,9 @@
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(143, 152, 234, 0.34);
+  border-radius: 10px;
+}
