@@ -2,14 +2,113 @@
   grid-area: main;
 }
 
-
-.account-page-bg-wrapper{
+.account-page-bg-wrapper {
+  position: relative;
   max-height: 300px;
   overflow: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  img{
+
+  .account-page-bg {
     width: 100%;
     height: auto;
   }
+}
+
+.account-page-img-wrapper {
+  position: absolute;
+  z-index: 1;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.account-page-title {
+  margin: 35px 0;
+  font-size: 25px;
+}
+
+.account-page-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-page-new-post {
+  resize: none;
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+}
+
+.account-page-new-btn {
+  margin-left: 5%;
+}
+
+.post-item {
+  margin: 50px 0 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.post-avatar {
+  width: 100px;
+  margin-right: 50px;
+  overflow: hidden;
+  img {
+    border-radius: 50%;
+    width: 100%;
+  }
+}
+
+.profile-info {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-name {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.profile-data , .post-item {
+  box-shadow: 0 0 10px 4px rgba(102, 102, 102, 0.16);
+
+}
+
+.profile-data-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(138, 142, 149, 0.05);
+  padding: 0 50px;
+
+  p {
+    margin: 20px 0;
+  }
+}
+
+.profile-data-title {
+  padding-right: 150px;
+}
+.post-item{
+  padding: 20px;
+  background-color: rgba(138, 142, 149, 0.05);
+
+}
+.post-item-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.post-text{
+  width: 90%;
 }

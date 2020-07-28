@@ -1,9 +1,17 @@
 
 .sidebar {
   grid-area: sidebar;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgba(143, 152, 234, 0.34);
   border-radius: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sidebar-btn{
+  margin-bottom: 5px;
+}
+.sidebar-btn__settings{
+  margin-top: 20px;
+  margin-bottom: 0;
 }

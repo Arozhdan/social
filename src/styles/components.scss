@@ -1,11 +1,36 @@
 .btn-link{
   border: none;
-  border-radius: 4px;
   background-color: transparent;
   padding: 10px;
   transition: all 0.3s;
   outline: none;
   &:hover, &:focus{
-    background-color: rgba(127, 161, 231, 0.09);
+    background-color: rgba(232, 248, 255, 0.53);
+    cursor: pointer;
+  }
+}
+.btn-main{
+  border-radius: 10px;
+  border-color: #2d54a1;
+  background-color: #2d54a1;
+  color: white;
+  padding: 15px 25px;
+  transition: all 0.3s;
+  &:hover, &:focus{
+    transform: scale(0.98);
+    background-color: darken(#2d54a1, 10% );
+  }
+}
+
+.post-like:hover{
+  svg{
+    transition: all 0.3s;
+    fill: lighten(#2d54a1, 10%) ;
+  }
+}
+
+.post-like__active{
+  svg{
+    fill: #2d54a1;
   }
 }
